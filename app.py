@@ -18,7 +18,7 @@ def _exception_handler(type_, value, traceback_):
         msg = QMessageBox()
         msg.setWindowTitle("Sesame error")
         msg.setIcon(QMessageBox.Critical)
-        msg.setText("An error occured. More information in the following log.")
+        msg.setText("An error occurred. More information in the following log.")
         msg.setDetailedText(log)
         msg.setEscapeButton(QMessageBox.Ok)
         msg.exec_()
